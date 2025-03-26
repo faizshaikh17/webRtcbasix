@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React</title>
+</head>
+
+<body class="flex justify-center items-start pt-10 min-h-screen bg-[#171717]">
+  <div id="root"></div>
+  <div class="flex flex-col items-center gap-5">
+    <div class="flex gap-6">
+      <video id="localVideo" autoplay class="w-[30rem] h-[20rem] border-2 border-gray-800 rounded-lg bg-black"></video>
+      <video id="remoteVideo" autoplay class="w-[30rem] h-[20rem] border-2 border-gray-800 rounded-lg bg-black"></video>
+    </div>
+    <button id="btn" class="px-5 py-2 text-lg bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors">
+      Call
+    </button>
+  </div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
